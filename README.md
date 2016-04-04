@@ -35,7 +35,8 @@ The Post Scan Job is the web service that is called after a scan has finished. I
    
 The ScanProcessor.java servlet is responsible for Post Scan Job behaviors. To kick off the Post Scan Job, call <your running web service home url>/run .
 
-
+#### Libs Used
+This project uses Apache's commons io, Google's gson, and Google's json simple.  
 
 ## Setup
 
@@ -47,7 +48,7 @@ I use Apache Tomcat to run this application locally. The printer/scanner I have 
 
 Once I saved the Automator app, I was able to have the printer call this App after a scan. The App calls my  web service. The scanned files are processed. I am happy.  
  
-## Terms
+## Commong Terms
  
 Active Config File: The configuration file that the Post Scan Job will use to determine what to do with the scanned files.
  
