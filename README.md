@@ -48,7 +48,7 @@ I use Apache Tomcat to run this application locally. The printer/scanner I have 
 
 Once I saved the Automator app, I was able to have the printer call this App after a scan. The App calls my  web service. The scanned files are processed. I am happy.  
  
-## Commong Terms
+## Common Terms
  
 Active Config File: The configuration file that the Post Scan Job will use to determine what to do with the scanned files.
  
